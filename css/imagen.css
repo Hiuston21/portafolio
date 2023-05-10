@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 1.8rem;
+}
+
+
+.JP{
+    width: 100vw;
+    max-width: 2560px;
+    min-width: 320px;
+    margin: auto;
+    z-index: 10;
+}
+
+.Josehp{
+    margin-top: 1%;
+    margin-left: 19%;
+    width: 15%;
+    
+    
+}
+
+
+

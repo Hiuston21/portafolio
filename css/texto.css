@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Dancing+Script:wght@700&family=Montserrat:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 1.8rem;
+}
+
+
+.texto{
+    position: absolute;
+    width: 100vw;
+    max-width: 2560px;
+    min-width: 320px;
+    height: 50vw;
+    margin: auto;
+}
+
+.contenido{
+    position: absolute;
+   background: #ffffff;
+    width: 50%;
+    height: 40%;
+    margin-top: 11%;
+    margin-left: 45%;
+    border-radius: 1.5vw;
+    box-shadow: 0px 0px 5px 5px #00000021;
+   
+  
+}
+
+.titulo{
+    position: absolute;
+    left: 45%;
+}
+
+.J{
+   
+    margin-top: 5%;
+    color: #000;
+    font-size: 3vw;
+    font-family: 'Dancing Script', cursive;
+}
+
+.JJ{
+    margin-top: 12%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #000;
+    font-size: 1.5vw;
+    font-family: 'Indie Flower', cursive;
+}
+
+.W{
+    position: absolute;
+   
+    width: 40%;
+    height: 25%;
+    margin-bottom: 40vw;
+    
+}
+
+
+.WA{
+    
+    width: 20%;
+    margin-left: 85%;
+   margin-bottom:30%; 
+    
+}

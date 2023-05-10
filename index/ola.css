@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.todo{
+     position: absolute;
+    width: 100vw;
+    max-width: 2560px;
+    min-width: 320px;
+    height: 50vw;
+    
+   
+}
+
+.FondoOla{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #08f ;
+    overflow: hidden;
+}
+
+
+@media (min-width: 768px){
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(img/wave.png);
+    background-size:1000px 100px;
+    animation: wave 10s linear infinite;
+}
+
+@keyframes wave{
+    0%{
+        background-position-x: 0;
+    }
+
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
+}
+
+@media (max-width: 767px){
+
+    .wave{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        background-image: url(img/wave.png);
+        background-size:300px 30px;
+        animation: wave 10s linear infinite;
+    }
+    
+    @keyframes wave{
+        0%{
+            background-position-x: 0;
+        }
+    
+        100%{
+            background-position-x: 300px;
+        }
+    }
+    
+}
+    
+
